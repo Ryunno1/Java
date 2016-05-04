@@ -7,8 +7,8 @@ public class Jokenpo {
 	String jogador1;
 	String jogador2;
 	Integer qtdDePartidas;
-    Integer opc;
-    Integer qtdVitoriasJogador1 = 0;
+        Integer opc;
+        Integer qtdVitoriasJogador1 = 0;
 	Integer qtdVitoriasJogador2 = 0;
 	
      Jokenpo(){
@@ -55,7 +55,7 @@ public class Jokenpo {
 			break;
 
 		default:
-			JOptionPane.showMessageDialog(null, "N„o existe essa opÁ„o de qtdDePartidas");
+			JOptionPane.showMessageDialog(null, "N√£o existe essa op√ß√£o de qtdDePartidas");
 			break;
 		}
 		
@@ -69,16 +69,16 @@ public class Jokenpo {
 		
 		if(qtdDePartidas!=5 && qtdDePartidas!=7 && qtdDePartidas!=9){
 			
-			JOptionPane.showMessageDialog(null, "valor inv·lido");
+			JOptionPane.showMessageDialog(null, "valor inv√°lido");
 		}
 		else {
 		while (numeroPartida<=qtdDePartidas) {
 			if (qtdVitoriasJogador1>(qtdDePartidas/2) || (qtdVitoriasJogador2>(qtdDePartidas/2))) {
 				if(qtdVitoriasJogador1>qtdVitoriasJogador2)
-					JOptionPane.showMessageDialog(null, "N„o tem como mais o jogador 2 ganhar");
+					JOptionPane.showMessageDialog(null, "N√£o tem como mais o jogador 2 ganhar");
 				
 			else
-				JOptionPane.showMessageDialog(null, "N„o tem como mais o jogador 1 ganhar");
+				JOptionPane.showMessageDialog(null, "N√£o tem como mais o jogador 1 ganhar");
 			}
 			Integer vencedor = 0;
 			JOptionPane.showMessageDialog(null,"\nPartida "+numeroPartida+"/"+qtdDePartidas+"\n 1 - Pedra \n 2 - Papel \n 3 - Tesoura");
@@ -127,8 +127,8 @@ public class Jokenpo {
 				JOptionPane.showMessageDialog(null,"\nJogador "+ this.jogador2 +" venceu");
 			}
 			
-			JOptionPane.showMessageDialog(null,"VitÛrias do jogador 1: "+this.qtdVitoriasJogador1);
-			JOptionPane.showMessageDialog(null,"VitÛrias do jogador 2: "+this.qtdVitoriasJogador2);
+			JOptionPane.showMessageDialog(null,"Vit√≥rias do jogador 1: "+this.qtdVitoriasJogador1);
+			JOptionPane.showMessageDialog(null,"Vit√≥rias do jogador 2: "+this.qtdVitoriasJogador2);
 		}
 		public static void main(String[] args) {
 			Jokenpo jokenpo = new Jokenpo();
