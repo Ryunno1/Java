@@ -6,16 +6,17 @@ public class PareImpar {
 	
 		int limiteLinhas;
 		int opcao;
+		int r;
 		
 		void escolheTipoImpressao(){
-			opcao =Integer.parseInt( JOptionPane.showInputDialog("\nEscolha uma opção de impressão: "
-					+ "\n1: a partir de um número impar"
-					+ "\n2: a partir de um número par"
-					+ "\n3: todos os números"));
+			opcao =Integer.parseInt( JOptionPane.showInputDialog("\nEscolha uma opÃ§Ã£o de impressÃ£o: "
+					+ "\n1: a partir de um nÃºmero impar"
+					+ "\n2: a partir de um nÃºmero par"
+					+ "\n3: todos os nÃºmeros"));
 		
 			
 			
-			limiteLinhas=Integer.parseInt(JOptionPane.showInputDialog("Escolha o limite de impressão de linhas"));
+			limiteLinhas=Integer.parseInt(JOptionPane.showInputDialog("Escolha o limite de impressÃ£o de linhas"));
 		
 		}
 		
