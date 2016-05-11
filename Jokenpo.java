@@ -10,6 +10,7 @@ public class Jokenpo {
         Integer opc;
         Integer qtdVitoriasJogador1 = 0;
 	Integer qtdVitoriasJogador2 = 0;
+	Integer r;
 	
      Jokenpo(){
 		
